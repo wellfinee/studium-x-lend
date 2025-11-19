@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudiumX || LMS система будущего, геймификация, поощрения и интерес</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kings&family=Momo+Trust+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+    <canvas id="cursor-trail"></canvas>
+    <header class="header">
+        <a href="index.html" class="header__logo">
+            StudiumX
+        </a>
+        <nav class="header__menu-container">
+            <ul class="header__menu">
+                <li class="header__menu-item">
+                    <a href="#" class="header__link">О нас</a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="#" class="header__link">Награды и монеты</a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="#" class="header__link">Игры и соревнования</a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="#" class="header__link">Для Учителей / Для Школ</a>
+                </li>
+            </ul>
+
+            <ul class="header__auth-menu">
+                <li class="header__auth-item">
+                    <a href="#" class="header__auth-link header__auth-link--login">Вход</a>
+                </li>
+                <li class="header__auth-item">
+                    <a href="#" class="header__auth-link header__auth-link--signup">Регистрация</a>
+                </li>
+            </ul>
+            <button type="button" aria-label="burger" class="header__burger">
+                <img src="./assets/images/svg/menu.svg" alt="burger" id="burger-toggle">
+            </button>
+        </nav>
+
+    </header>
+    <main class="main">
+        <section class="hero">
+            <article class="hero__titles">
+                <h1 class="hero__title">
+                    <span class="title">StudiumX</span> — Новое поколение образования
+                </h1>
+                <p class="hero__text">
+                    Мы превращаем обучение в увлекательный путь развития: мотивация, прогресс, награды и поддержка — в
+                    одной интеллектуальной платформе. </p>
+                <div class="hero__buttons">
+                    <a href="#" class="hero__button">Прокачать учебу</a>
+                    <a href="#" class="hero__button hero__button--secondary">Узнать цены</a>
+                </div>
+            </article>
+            <img src="assets/images/webp/book_01.webp" alt="книга" class="hero__book hero__book--01">
+            <img src="assets/images/webp/book_01.webp" alt="книга" class="hero__book hero__book--02">
+            <img src="assets/images/webp/book_03.webp" alt="книга" class="hero__book hero__book--03">
+            <img src="assets/images/webp/book_04.webp" alt="книга" class="hero__book hero__book--04">
+            <img src="assets/images/webp/hero_01.webp" alt="человек studiumX" class="hero__img" data-mage>
+        </section>
+        <section class="why-me">
+            <h2 class="why-me__title">Почему StudiumX?</h2>
+            <div class="why-me__cards">
+                <article class="why-me__card">
+                    <h1 class="why-me__number">01</h1>
+                    <div class="why-me__text">
+                        <h3 class="why-me__card-title">Геймификация обучения</h3>
+                        <p class="why-me__card-text">Преобразуйте учебный процесс в увлекательное приключение с
+                            элементами игры.</p>
+                    </div>
+                </article>
+                <article class="why-me__card">
+                    <h1 class="why-me__number">02</h1>
+                    <div class="why-me__text">
+                        <h3 class="why-me__card-title">Протестировано школами</h3>
+                        <p class="why-me__card-text">Создано преподавателем-программистом совместно с учебными
+                            заведениями.</p>
+                    </div>
+                </article>
+                <article class="why-me__card">
+                    <h1 class="why-me__number">03</h1>
+                    <div class="why-me__text">
+                        <h3 class="why-me__card-title">Больше возможностей</h3>
+                        <p class="why-me__card-text">StudiumX объединяет больше функций, чем конкуренты.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="what-get">
+            <h2 class="what-get__title">Что вы получаете с StudiumX?</h2>
+            
+        </section>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.3.13/dist/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="assets/scripts/script.js"></script>
+<script src="assets/scripts/lenis.js"></script>
+<script src="assets/scripts/animations.js"></script>
+<script src="assets/scripts/trail.js" defer></script>
+
+</html>
